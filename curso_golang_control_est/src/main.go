@@ -63,7 +63,7 @@ func main() {
 	hello := "Hello"
 	world := "World"
 	cant := 2
-
+	ccc := 4
 	fmt.Println(hello, world)
 	fmt.Println(hello, world)
 	fmt.Printf("%s numero %d\n", world, cant)
@@ -324,7 +324,8 @@ func arrays() {
 	fmt.Println(m["Jose"])
 	//Buscar un valor , se añade una variable que recibe un bool
 	value, ok := m["Jose"]
-	fmt.Println(value, "-", ok)
+	value2 := m["Joseh"]
+	fmt.Println(value2, "-")
 	value, ok = m["Josep"]
 	fmt.Println(value, "-", ok)
 
